@@ -1,7 +1,7 @@
 html {
   color-scheme: light dark;
-  background-color: light-dark(#fff, #222);
-  color: light-dark(#444, #eee);
+  background-color: light-dark(#fff, #111);
+  color: light-dark(#444, #bbb);
   font-family: sans-serif;
   font-size: 1.2em;
 }
