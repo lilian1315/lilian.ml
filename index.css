@@ -44,6 +44,15 @@ a {
   white-space: nowrap;
 }
 
+@media (hover: hover) {
+  a:hover {
+    color: light-dark(#222, #eee);
+  }
+  h3 a:hover {
+    text-decoration: underline;
+  }
+}
+
 p,
 dd,
 footer {
