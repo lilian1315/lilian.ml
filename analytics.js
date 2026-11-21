@@ -3,5 +3,5 @@ posthog.init('phc_xkwKbr92dXQzjpwZZNDjvrRKoWEoBkexdMAME6Gz9RRR', {
     api_host: 'https://lilian.ml.lilian.ml', // your managed reverse proxy domain
     ui_host: 'https://eu.posthog.com', // necessary because you're using a proxy, this way links will point back to PostHog properly
     defaults: '2026-05-30',
-    person_profiles: 'identified_only', // or 'always' to create profiles for anonymous users as well
+    cookieless_mode: "always",
 })
