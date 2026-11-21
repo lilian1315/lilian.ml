@@ -47,7 +47,7 @@ a {
 p,
 dd,
 footer {
-  line-height: 1.35;
+  line-height: 1.5;
   a[target="_blank"]::after {
     display: inline-block;
     content: "\2009↗";
