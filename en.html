@@ -1,97 +1,143 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lilian Moulanier</title>
-    <meta
-      name="description"
-      content="Developer at Agence Plus since 2019 — I build and maintain websites and open source services in PHP and TypeScript."
-    />
-    <link
-      rel="icon"
-      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23222' d='M20 12h12v28h16v12H20z'/%3E%3C/svg%3E"
-      type="image/svg+xml"
-    />
-    <link rel="stylesheet" href="/index.css" />
-    <script src="index.js" defer></script>
-  </head>
-  <body>
-    <main>
-      <h1>Lilian Moulanier</h1>
-      <p>
-        Developer at
-        <a href="https://www.agence-plus.fr/" target="_blank">Agence Plus</a>
-        since 2019. With my team, I build and maintain websites and services for hundreds of
-        clients. I mainly develop in <span class="icon icon-php">PHP</span> and <span class="icon icon-ts">TypeScript</span>
-      </p>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Lilian Moulanier</title>
+        <meta
+            name="description"
+            content="Developer at Agence Plus since 2019 — I build and maintain websites and open source services in PHP and TypeScript."
+        />
+        <link
+            rel="icon"
+            href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%23222' d='M20 12h12v28h16v12H20z'/%3E%3C/svg%3E"
+            type="image/svg+xml"
+        />
+        <link rel="stylesheet" href="/index.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <main>
+            <h1>Lilian Moulanier</h1>
+            <p>
+                Developer at
+                <a href="https://www.agence-plus.fr/" target="_blank"
+                    >Agence Plus</a
+                >
+                since 2019. With my team, I build and maintain websites and
+                services for hundreds of clients. I mainly develop in
+                <span class="icon icon-php">PHP</span> and
+                <span class="icon icon-ts">TypeScript</span>
+            </p>
 
-      <h2>My projects</h2>
-      <dl>
-        <dt>
-          <h3>
-            <a href="https://github.com/lilian1315/create-element" target="_blank"
-              >create-element</a
-            >
-          </h3>
-        </dt>
-        <dd>
-          Originally, I wanted a simple way to create
-          <span class="icon icon-html">HTML</span> elements in
-          <span class="icon icon-js">JavaScript</span>, but I never found a solution I liked. My
-          constraints: a type-safe API that's easy to update. Then I wanted to see if it was
-          possible to support signal libraries such as
-          <a href="https://github.com/preactjs/signals" target="_blank">Preact Signals</a> or
-          <a href="https://github.com/stackblitz/alien-signals" target="_blank">Alien Signals</a>. I
-          ended up implementing JSX support and found myself with a micro UI framework!
-        </dd>
-      </dl>
-      <dl>
-        <dt>
-          <h3>
-            <a href="https://github.com/lilian1315/faisceau" target="_blank">faisceau</a>
-          </h3>
-        </dt>
-        <dd>
-          An interface for
-          <a href="https://github.com/stackblitz/alien-signals" target="_blank">Alien Signals</a>
-          inspired by
-          <a href="https://github.com/preactjs/signals" target="_blank">Preact Signals</a>
-          with utility functions tailored to my needs. Building this library helped me better
-          understand how Alien Signals works under the hood, in particular the "double-linked-list"
-          concept. It's one of the signal libraries supported by
-          <a href="https://github.com/lilian1315/create-element" target="_blank">create-element</a>.
-        </dd>
-      </dl>
-      <dl>
-        <dt>
-          <h3>
-            <a href="https://github.com/lilian1315/faisceau-ui" target="_blank">faisceau ui</a>
-          </h3>
-        </dt>
-        <dd>
-          A UI library based on <a href="https://zagjs.com/" target="_blank">Zag</a> with a base
-          style inspired by <a href="https://ui.shadcn.com/" target="_blank">Shadcn</a> and
-          following the principle of
-          <a
-            href="https://developer.mozilla.org/en-US/docs/Glossary/Progressive_enhancement"
-            target="_blank"
-            >progressive enhancement</a
-          >. A chance to try out both previous libraries, and my attempt at building the best
-          multi-select for vanilla <span class="icon icon-js">JavaScript</span>.
-        </dd>
-      </dl>
-    </main>
-    <footer>
-      <div>
-        <a href="https://github.com/lilian1315" target="_blank">GitHub</a>
-        ·
-        <a href="https://linkedin.com/in/lilian-moulanier-7810aa121" target="_blank">LinkedIn</a>
-      </div>
-      <div>
-        <a href="/fr">FR</a>
-        / EN
-      </div>
-    </footer>
-  </body>
+            <h2>My projects</h2>
+            <dl>
+                <dt>
+                    <h3>
+                        <a
+                            href="https://github.com/lilian1315/create-element"
+                            target="_blank"
+                            >create-element</a
+                        >
+                    </h3>
+                </dt>
+                <dd>
+                    Originally, I wanted a simple way to create
+                    <span class="icon icon-html">HTML</span> elements in
+                    <span class="icon icon-js">JavaScript</span>, but I never
+                    found a solution I liked. My constraints: a type-safe API
+                    that's easy to update. Then I wanted to see if it was
+                    possible to support signal libraries such as
+                    <a
+                        href="https://github.com/preactjs/signals"
+                        target="_blank"
+                        >Preact Signals</a
+                    >
+                    or
+                    <a
+                        href="https://github.com/stackblitz/alien-signals"
+                        target="_blank"
+                        >Alien Signals</a
+                    >. I ended up implementing JSX support and found myself with
+                    a micro UI framework!
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <h3>
+                        <a
+                            href="https://github.com/lilian1315/faisceau"
+                            target="_blank"
+                            >faisceau</a
+                        >
+                    </h3>
+                </dt>
+                <dd>
+                    An interface for
+                    <a
+                        href="https://github.com/stackblitz/alien-signals"
+                        target="_blank"
+                        >Alien Signals</a
+                    >
+                    inspired by
+                    <a
+                        href="https://github.com/preactjs/signals"
+                        target="_blank"
+                        >Preact Signals</a
+                    >
+                    with utility functions tailored to my needs. Building this
+                    library helped me better understand how Alien Signals works
+                    under the hood, in particular the "double-linked-list"
+                    concept. It's one of the signal libraries supported by
+                    <a
+                        href="https://github.com/lilian1315/create-element"
+                        target="_blank"
+                        >create-element</a
+                    >.
+                </dd>
+            </dl>
+            <dl>
+                <dt>
+                    <h3>
+                        <a
+                            href="https://github.com/lilian1315/faisceau-ui"
+                            target="_blank"
+                            >faisceau ui</a
+                        >
+                    </h3>
+                </dt>
+                <dd>
+                    A UI library based on
+                    <a href="https://zagjs.com/" target="_blank">Zag</a> with a
+                    base style inspired by
+                    <a href="https://ui.shadcn.com/" target="_blank">Shadcn</a>
+                    and following the principle of
+                    <a
+                        href="https://developer.mozilla.org/en-US/docs/Glossary/Progressive_enhancement"
+                        target="_blank"
+                        >progressive enhancement</a
+                    >. A chance to try out both previous libraries, and my
+                    attempt at building the best multi-select for vanilla
+                    <span class="icon icon-js">JavaScript</span>.
+                </dd>
+            </dl>
+        </main>
+        <footer>
+            <div>
+                <a href="https://github.com/lilian1315" target="_blank"
+                    >GitHub</a
+                >
+                ·
+                <a
+                    href="https://linkedin.com/in/lilian-moulanier-7810aa121"
+                    target="_blank"
+                    >LinkedIn</a
+                >
+            </div>
+            <div>
+                <a href="/fr">FR</a>
+                / EN
+            </div>
+        </footer>
+    </body>
 </html>
