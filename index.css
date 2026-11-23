@@ -129,9 +129,3 @@ a[href^="https://www.agence-plus.fr/"] {
     margin-left: 0;
   }
 }
-
-@media screen and ((width < 600px) or (height < 600px)) {
-  html {
-    font-size: 1em;
-  }
-}
